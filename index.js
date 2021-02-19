@@ -21,10 +21,10 @@ function makeRandomColor(){
   let r = Math.floor(Math.random()*255)
   let g = Math.floor(Math.random()*255)
   let b = Math.floor(Math.random()*255)
-  if (r+b+g<100){
+  if (r+b+g<200){
     h1.style.color="white";
   }
-  else if (r+b+g >=100){
+  else if (r+b+g >=200){
     h1.style.color="black";
   }
   return`rgb(${r},${g},${b})`
